@@ -8,6 +8,7 @@ BUSINESS OBJECTIVES:
 To investigate Top 100 Billboard music dataset from 1950-2015 to determine market trends. Machine learning will predict genre of song using other datapoints such as syllables, word counts, and Flesh Index. 
 
 RESEARCH QUESTIONS & HYPOTHESES: 
+
 Do songs from certain genres have more complex lyrics?
 How does popularity of genres trend over time?
 Are songs lyrics becoming more repetitive over time?
@@ -27,7 +28,7 @@ http://www.bobborst.com/popculture/top-100-songs-of-the-year/?year=2015
 https://developer.spotify.com/documentation/web-api/
 https://en.wikipedia.org/wiki/Billboard_charts
 
-WEBPAGE:
+FINAL WEBPAGE:
 Select artist and it will give you title and average position for the year.
 Tabs will have interactive Tableau graphs
 We will use bootstrap to build the HTML
