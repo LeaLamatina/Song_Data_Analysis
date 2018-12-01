@@ -1,0 +1,100 @@
+html {
+    position: relative;
+    min-height: 110%;
+}
+
+body {
+    background-color: rgb(200, 200, 200);
+}
+
+h1 {
+    background-color: #ffffff;
+    color: rgb(0, 100, 150);
+    font-family: Georgia, Times, Times New Roman, serif;
+}
+
+h2 {
+    background-color: #ffffff;
+    color: rgb(0, 100, 150);
+    font-family: Georgia, Times, Times New Roman, serif;
+}
+
+h3 {
+    background-color: #ffffff;
+    color: rgb(0, 100, 150);
+    font-family: Georgia, Times, Times New Roman, serif;
+}
+
+li {
+    background-color: #ffffff;
+    color: rgb(11, 66, 0);
+    font-family: Georgia, Times, Times New Roman, serif;
+}
+
+p {
+    background-color: #ffffff;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+div {
+    background-color: #ffffff;
+}
+
+.col-md-5 {
+    background-color: white;
+    margin: 10px;
+}
+
+.col-md-8 {
+    background-color: white;
+    margin: 10px;
+}
+
+.col-md-12 {
+    background-color: white;
+    margin: 10px;
+}
+
+.img {
+    padding: 10px;
+}
+
+#nav-menu.navbar-default .navbar-brand {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 100, 150);
+}
+#nav-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom-width: 1px;
+}
+#nav-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+#nav-menu.navbar-default .navbar-nav>li>a:hover,
+#nav-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(222, 222, 222, 1);
+}
+#nav-menu.navbar-default .navbar-nav>.active>a,
+#nav-menu.navbar-default .navbar-nav>.active>a:hover,
+#nav-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(231, 231, 231, 1);
+}
+#nav-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#nav-menu.navbar-default .navbar-toggle:hover,
+#nav-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#nav-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#nav-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#nav-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ffffff;
+}
