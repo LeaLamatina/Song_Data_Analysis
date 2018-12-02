@@ -8,61 +8,32 @@ body {
 }
 
 h1 {
-    background-color: #ffffff;
     color: rgb(0, 100, 150);
     font-family: Georgia, Times, Times New Roman, serif;
 }
 
 h2 {
-    background-color: #ffffff;
     color: rgb(0, 100, 150);
-    font-family: Georgia, Times, Times New Roman, serif;
-}
-
-h3 {
-    background-color: #ffffff;
-    color: rgb(0, 100, 150);
-    font-family: Georgia, Times, Times New Roman, serif;
-}
-
-li {
-    background-color: #ffffff;
-    color: rgb(11, 66, 0);
     font-family: Georgia, Times, Times New Roman, serif;
 }
 
 p {
-    background-color: #ffffff;
     font-size: 17px;
     line-height: 1.7;
 }
 
-div {
-    background-color: #ffffff;
-}
-
-.col-md-5 {
-    background-color: white;
+.col-md-3, .col-md-8, .col-md-12 {
+    background-color: rgb(240, 240, 240);
     margin: 10px;
 }
 
-.col-md-8 {
-    background-color: white;
-    margin: 10px;
-}
-
-.col-md-12 {
-    background-color: white;
-    margin: 10px;
-}
-
-.img {
-    padding: 10px;
+img {
+    padding: 20px;
 }
 
 #nav-menu.navbar-default .navbar-brand {
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 100, 150);
+    background-color: rgb(0, 119, 30);
 }
 #nav-menu.navbar-default {
     font-size: 14px;
