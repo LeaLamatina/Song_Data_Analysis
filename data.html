@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Data</title>
+  <title>Songs and Stuff</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="Website/main.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -61,54 +61,15 @@
   <br>
   <br>
 
-  <script src="https://sdk.scdn.co/spotify-player.js"></script>
-  <script>
-  window.onSpotifyWebPlaybackSDKReady = () => {
-    const token = 'BQDlFrgQn31l8tn_SaOpjybQr5Awuf4FvXUNNG5CWIMaMru3ytutT1y-hxE3_tP2c_T-fXMDH7Tg3DOid8id9WLEB_n0hQbL90tXJ_XkzdNJgv0iJd0j3h7IFF8R6WA4jOJQlgzyNqRa9Anum7iOsmVP_YCiTQoeux-9Xb0';
-    const player = new Spotify.Player({
-      name: 'Songify.html Stream',
-      getOAuthToken: cb => { cb(token); }
-    });
-
-    // Error handling
-    player.addListener('initialization_error', ({ message }) => { console.error(message); });
-    player.addListener('authentication_error', ({ message }) => { console.error(message); });
-    player.addListener('account_error', ({ message }) => { console.error(message); });
-    player.addListener('playback_error', ({ message }) => { console.error(message); });
-
-    // Playback status updates
-    player.addListener('player_state_changed', state => { console.log(state); });
-
-    // Ready
-    player.addListener('ready', ({ device_id }) => {
-      console.log('Ready with Device ID', device_id);
-    });
-
-    // Not Ready
-    player.addListener('not_ready', ({ device_id }) => {
-      console.log('Device ID has gone offline', device_id);
-    });
-
-    // Connect to the player!
-    player.connect();
-  };
-  </script>
-
-  <div class="container">
+    <div class="container">
     
     <div class="row">
       <div class="col-md-9">
         <h1>
-          Data
+          Spotify Song Analysis
         </h1>
         <hr>
-        <br>
-        <h3><a download="SpotifyData.csv" href="Resources/Spotify_Full_Information.csv">Download Spotify Audio Features Data CSV</a></h3>
-        <br><br><br>
-        <h3><a download="billboardData.twbx" href="Resources/Top 100 Billboard Data.twbx">Download Billboard Data in Tableau</a></h3>
-        <br><br><br><br><br><br><br><br>
-
-
+        <p>Data</p>
       </div>
       
       <div class="col-md-3">
