@@ -61,40 +61,7 @@
   <br>
   <br>
 
-  <script src="https://sdk.scdn.co/spotify-player.js"></script>
-  <script>
-  window.onSpotifyWebPlaybackSDKReady = () => {
-    const token = 'BQDlFrgQn31l8tn_SaOpjybQr5Awuf4FvXUNNG5CWIMaMru3ytutT1y-hxE3_tP2c_T-fXMDH7Tg3DOid8id9WLEB_n0hQbL90tXJ_XkzdNJgv0iJd0j3h7IFF8R6WA4jOJQlgzyNqRa9Anum7iOsmVP_YCiTQoeux-9Xb0';
-    const player = new Spotify.Player({
-      name: 'Songify.html Stream',
-      getOAuthToken: cb => { cb(token); }
-    });
-
-    // Error handling
-    player.addListener('initialization_error', ({ message }) => { console.error(message); });
-    player.addListener('authentication_error', ({ message }) => { console.error(message); });
-    player.addListener('account_error', ({ message }) => { console.error(message); });
-    player.addListener('playback_error', ({ message }) => { console.error(message); });
-
-    // Playback status updates
-    player.addListener('player_state_changed', state => { console.log(state); });
-
-    // Ready
-    player.addListener('ready', ({ device_id }) => {
-      console.log('Ready with Device ID', device_id);
-    });
-
-    // Not Ready
-    player.addListener('not_ready', ({ device_id }) => {
-      console.log('Device ID has gone offline', device_id);
-    });
-
-    // Connect to the player!
-    player.connect();
-  };
-  </script>
-
-  <div class="container">
+    <div class="container">
     
     <div class="row">
       <div class="col-md-9">
@@ -102,13 +69,7 @@
           Spotify Song Analysis
         </h1>
         <hr>
-        <div class='tableauPlaceholder' id='viz1544578168014' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sp&#47;SpotifySongAnalysis&#47;SpotifySongAnalysis&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SpotifySongAnalysis&#47;SpotifySongAnalysis' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sp&#47;SpotifySongAnalysis&#47;SpotifySongAnalysis&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1544578168014');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-
-        <br>
-        
-        <p>
-          Here is some analysis.
-        </p>
+        <p>Data</p>
       </div>
       
       <div class="col-md-3">
