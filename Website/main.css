@@ -22,12 +22,19 @@ p {
     line-height: 1.7;
 }
 
-.col-md-3, .col-md-8, .col-md-12 {
-    background-color: rgb(240, 240, 240);
-    margin: 10px;
+div {
+    padding: 0px;
 }
 
-img {
+.col-md-3, .col-md-9, .col-md-12 {
+    background-color: rgb(240, 240, 240);
+}
+
+.albumart {
+    padding: 10px;
+}
+
+.img {
     padding: 20px;
 }
 

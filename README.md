@@ -4,6 +4,9 @@ Brandi Graham, Jérôme Laforest, Lea Lamatina, Brian Monroe, Nikki Statum
 # Lyric_Genny
 Using Machine Learning to Generate Song Lyrics
 
+DEPLOYED WEBSITE:
+https://lealamatina.github.io/Song_Data_Analysis/Index.html
+
 BUSINESS OBJECTIVES: 
 To investigate Top 100 Billboard music dataset from 1950-2015 to determine market trends. Machine learning will predict genre of song using other datapoints such as syllables, word counts, and Flesh Index. 
 
