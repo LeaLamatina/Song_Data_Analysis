@@ -1,8 +1,8 @@
 # Team AMG
 Brandi Graham, Jérôme Laforest, Lea Lamatina, Brian Monroe, Nikki Statum
 
-# Lyric_Genny
-Using Machine Learning to Generate Song Lyrics
+# Song_Data_Analysis
+Use machine learning to try and predict the popularity of songs.
 
 DEPLOYED WEBSITE:
 https://lealamatina.github.io/Song_Data_Analysis/Index.html
