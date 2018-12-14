@@ -30,6 +30,11 @@ div {
     background-color: rgb(240, 240, 240);
 }
 
+.jumbotron {
+    background: rgb(0, 134, 134);
+    text-align: left;
+}
+
 .albumart {
     padding: 10px;
 }
