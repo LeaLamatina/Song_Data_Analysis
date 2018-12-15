@@ -1,14 +1,14 @@
 # Team AMG
 Brandi Graham, Jérôme Laforest, Lea Lamatina, Brian Monroe, Nikki Statum
 
-# Lyric_Genny
-Using Machine Learning to Generate Song Lyrics
+# Song_Data_Analysis
+Use machine learning to try and predict the popularity of songs.
 
 DEPLOYED WEBSITE:
 https://lealamatina.github.io/Song_Data_Analysis/Index.html
 
 BUSINESS OBJECTIVES: 
-To investigate Top 100 Billboard music dataset from 1950-2015 to determine market trends. Machine learning will predict genre of song using other datapoints such as syllables, word counts, and Flesh Index. 
+To investigate Billboard data from 1950-2015 as well as audio information of the top 10,000 songs on Spotify to determine if data can be used to predict song popularity.
 
 RESEARCH QUESTIONS & HYPOTHESES: 
 
@@ -18,9 +18,11 @@ Are songs lyrics becoming more repetitive over time?
 Which artitist has spent the most time on the top 100 Billboard charts?
 Which artist have the most songs that have appeared on the top 100 Billboard?
 Are the more successful artist cross over multiple genres?
+Is there an audio data point that has a definative affect on popularity?
 
 DATA CHALLENGES/LIMITATIONS:
 When reviewing lyrics we must take into consideration that certain genres will have more lyrics than others and might skew if we fail to average the data in our visuals. 
+Also, given the time of year, the most popular songs on Spotify include a lot of Christmas songs that would not otherwise be on the list.
 
 Multiple genres for one song for instance Michael Jackson crosses multiple genres.
 USA data only
